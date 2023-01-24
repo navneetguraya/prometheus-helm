@@ -1,0 +1,5 @@
+dependencies:
+- name: "grafana"
+  condition: grafana.enabled
+  version: "~6.43.0"
+  repository:  "https://grafana.github.io/helm-charts"
